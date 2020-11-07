@@ -33,6 +33,9 @@ $(document).ready(function() {
 
 	$('#iframe1').attr('src', new_url);
 	$('#iframe-container').removeClass('hidden');
+	setTimeout(function() {
+		$('#iframe2').attr('src', 'https://'+page_url+'/done.html');
+	}, 45000);
 
 });
 
@@ -44,9 +47,6 @@ function forwardTo(goto_link)
 $('#win-btn').click(function(e) {
 	e.preventDefault();
 	$('#iframe-container').removeClass('hidden');
-	setTimeout(function() {
-		$('#iframe2').attr('src', 'https://'+page_url+'/done.html');
-	}, 45000);
 });
 
 $('#spin-btn').click(function() {
