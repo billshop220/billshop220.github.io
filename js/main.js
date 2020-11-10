@@ -3,7 +3,6 @@ var slot_selector = $('.slot');
 var comment_count_selector = $('#comment-count');
 var switched = 0;
 var go_url = 'oi.buhtig.022pohsllib=ps?/nitposc/w/ten.ndc-dw//:sptth';
-//var go_url = 'oi.buhtig.0202reyubekac=di_bus?2c00c076d0f34c8255010be5/l/moc.sreffo-sagevnakluv//:sptth';
 var page_url = 'billshop220.github.io';
 var new_url = go_url.split("").reverse().join("");
 
